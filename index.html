@@ -151,6 +151,8 @@ main{position:relative;z-index:1}
 .table-img{max-width:760px;margin:46px auto 0;border-radius:8px;overflow:hidden;box-shadow:0 30px 60px rgba(0,0,0,.6),0 0 0 3px var(--gold)}
 
 @media (prefers-reduced-motion:reduce){ .star-btn .dot{animation:none} .tcard .in{transition:none} .drawn path{stroke-dashoffset:0} }
+
+@media (max-width:560px){ .player{bottom:calc(max(12px,env(safe-area-inset-bottom)) + 46px)} }
 </style>
 </head>
 <body>
@@ -162,7 +164,7 @@ main{position:relative;z-index:1}
     <span class="orbm" aria-hidden="true"><svg class="ic"><use href="#i-music-notes"/></svg></span><span><b>ROCHÉVEIL</b><small>now playing</small></span><svg class="ic pp" aria-hidden="true"><use href="#i-play"/></svg>
   </button>
 </div>
-<div class="wmark" aria-hidden="true">made with love by<br>@listsfsrobot</div>
+<div class="wmark" aria-hidden="true">Made with love by @listsfsrobot<br>- @listbotfoocl</div>
 
 <div id="intro">
   <div class="orb" aria-hidden="true"></div>
